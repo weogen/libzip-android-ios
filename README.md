@@ -6,7 +6,9 @@ build libzip for android/ios  and a sample use c++ to unzip file
 (1).download libzip source form https://github.com/nih-at/libzip
 unzip flie and use terminal to open file path: /../libzip-1.6.1/android/
 open and edit do.sh 
+
 ANDROID_NDK_ROOT=/Users/apple/Library/Android/ndk/android-ndk-r14b #your own ndk path,ndk-18 ndk-14 has been tested
+
 add cmake:-DANDROID_NATIVE_API_LEVEL=android-21 \
           -DANDROID_TOOLCHAIN=gcc #ndk-r18 use clang
  
